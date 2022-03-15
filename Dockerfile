@@ -1,6 +1,6 @@
 FROM python:3.10-alpine
 
-LABEL org.opencontainers.image.source https://github.com/mgor/passtider
+LABEL org.opencontainers.image.source https://github.com/niklasfriberg/passtider
 
 LABEL org.opencontainers.image.description "find first available timeslot for [re]new passport"
 

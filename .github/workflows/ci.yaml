@@ -36,7 +36,7 @@ jobs:
         platforms: linux/amd64,linux/arm64
         context: .
         tags: |
-          ghcr.io/mgor/passtider:latest
+          ghcr.io/niklasfriberg/passtider:latest
         push: ${{ github.ref == 'refs/heads/main' }}
 
     - name: Image digest
