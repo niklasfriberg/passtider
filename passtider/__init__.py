@@ -157,9 +157,8 @@ def main() -> int:
     eprint('\n:calendar: letar efter lediga tider, ha tålamod...', end='\n\n')
 
     regions: Dict[str, str] = {
-        'vasternorrland': '14',
-        'gavleborg': '19',
-        'jamtland': '18',
+        'uppsala': '14',
+        'stockholm': '19'
     }
 
     start = perf_counter()
